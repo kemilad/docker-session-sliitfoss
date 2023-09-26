@@ -1,4 +1,4 @@
-# docker-session-sliitfoss
+# docker-session-sliitfoss-bashaway
 
 ## Commands  
 ### Node app
@@ -8,13 +8,13 @@
 ### Docker
 
 - Docker build
-`docker build -t node-server .`
+`docker build -t sliit-bashaway .`
 - Create and Run the Container
-`docker run -p 3001:3001 node-server:latest`
+`docker run -p 3000:3000 sliit-bashaway:v1`
 - Upload the image to Docker Registry - DockerHub
   - Tag the image
-  `docker tag node-server <dockerhub-username>/k8s-demo:1.0`
+  `docker tag sliit-bashaway:v1 <dockerhub-username>/sliit-bashaway:v1`
   - Push it to DockerHub
-  `docker push <dockerhub-username>/k8s-demo:1.0`
+  `docker push <dockerhub-username>/sliit-bashaway:v1`
   
-🎉🎉 You have successfully deployed your container image to Kubernetes!!
+🎉🎉 You have successfully deployed and pushed your container image to DockerHub!!
