@@ -1,0 +1,14 @@
+{
+  "name": "nodongo",
+  "version": "1.0.0",
+  "description": "Basic NodeJS with Docker and Kubernetes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kemila De Silva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
